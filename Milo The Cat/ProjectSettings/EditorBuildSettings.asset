@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Sunnyland/Scenes/MainMenu/Main Meu/MainMenu.unity
+    guid: 4b00d3042d78d95438a67b0ec6f39b86
+  - enabled: 1
+    path: Assets/Sunnyland/Scenes/MainMenu/MainMenu.unity
+    guid: b79165ee0e1bf1543babccfb4d626fa4
+  - enabled: 1
+    path: Assets/MTC.unity
+    guid: 140ac5ee61d44844f8459a032723374f
   m_configObjects: {}
