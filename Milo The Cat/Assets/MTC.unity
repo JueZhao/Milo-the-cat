@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 6
   distance: 0.5
   groundDetection: {fileID: 1734376760}
 --- !u!61 &70959421
@@ -541,7 +541,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 6
   distance: 0.5
   groundDetection: {fileID: 641743095}
 --- !u!61 &266485249
@@ -842,7 +842,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 6
   distance: 0.5
   groundDetection: {fileID: 301341947}
 --- !u!61 &344392022
@@ -1314,7 +1314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 6
   distance: 0.5
   groundDetection: {fileID: 1766642594}
 --- !u!61 &490300748
@@ -1609,7 +1609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 6
   distance: 0.5
   groundDetection: {fileID: 393976257}
 --- !u!61 &632953670
@@ -1779,7 +1779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 6
   distance: 0.5
   groundDetection: {fileID: 2110583484}
 --- !u!61 &656645650
@@ -2394,7 +2394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 6
   distance: 0.5
   groundDetection: {fileID: 1807097705}
 --- !u!61 &729212656
@@ -2976,7 +2976,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 6
   distance: 0.5
   groundDetection: {fileID: 1281972022}
 --- !u!61 &1053228020
@@ -3268,7 +3268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 6
   distance: 0.5
   groundDetection: {fileID: 1070476039}
 --- !u!61 &1161212463
@@ -3408,7 +3408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 6
   distance: 0.5
   groundDetection: {fileID: 712923925}
 --- !u!61 &1181527803
@@ -3801,7 +3801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 6
   distance: 0.5
   groundDetection: {fileID: 1868039448}
 --- !u!61 &1550664718
@@ -14593,7 +14593,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 6
   distance: 0.5
   groundDetection: {fileID: 1193872760}
 --- !u!61 &1721711299
@@ -15132,7 +15132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 6
   distance: 0.5
   groundDetection: {fileID: 1913674910}
 --- !u!61 &2018674759
@@ -15302,7 +15302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 6
   distance: 0.5
   groundDetection: {fileID: 102637985}
 --- !u!61 &2042111904
@@ -15442,7 +15442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 6
   distance: 0.5
   groundDetection: {fileID: 666705213}
 --- !u!61 &2042936677
@@ -15612,7 +15612,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 6
   distance: 0.5
   groundDetection: {fileID: 2069448825}
 --- !u!61 &2076812974

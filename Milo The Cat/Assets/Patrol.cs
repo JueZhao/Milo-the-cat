@@ -18,7 +18,7 @@ public class Patrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.right * speed * Time.fixedDeltaTime);
+        transform.Translate(Vector2.right * speed * Time.deltaTime);
 
         RaycastHit2D checkPos = Physics2D.Raycast(groundDetection.position, Vector2.down, distance);
         if(checkPos.collider == false){

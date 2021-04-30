@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/MTC.unity
     guid: 140ac5ee61d44844f8459a032723374f
   - enabled: 1
+    path: Assets/Boss1.unity
+    guid: 23cc43f1be5243a4ca500da2bfab774c
+  - enabled: 1
     path: Assets/MTCLVL2.unity
     guid: c6d235f175ca04347b5a1545b5cbfa67
   m_configObjects: {}
