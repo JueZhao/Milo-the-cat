@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 8
   distance: 0.5
   groundDetection: {fileID: 775880412}
 --- !u!61 &86862146
@@ -594,7 +594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 8
   distance: 0.5
   groundDetection: {fileID: 301341947}
 --- !u!61 &344392022
@@ -2028,7 +2028,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dcc363aa97108049b420c86b86e88cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.8
+  speed: 8
   distance: 0.5
   groundDetection: {fileID: 2033330786}
 --- !u!61 &1430899203
