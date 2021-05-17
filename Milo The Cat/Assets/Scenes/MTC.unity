@@ -409,7 +409,7 @@ GameObject:
   m_Component:
   - component: {fileID: 260771574}
   - component: {fileID: 260771575}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Long Clouds
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -629,7 +629,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 273052055}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Background (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -644,7 +644,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273052054}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 48.08, y: -1.08, z: -1.3397892}
+  m_LocalPosition: {x: 48, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 705136595}
@@ -710,7 +710,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 322862970}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.46, y: -5.0096, z: 1.3397892}
+  m_LocalPosition: {x: -1.37, y: -4.92, z: 1.3397892}
   m_LocalScale: {x: 1.0504688, y: 0.5436615, z: 1}
   m_Children: []
   m_Father: {fileID: 587255714}
@@ -1020,7 +1020,7 @@ GameObject:
   m_Component:
   - component: {fileID: 443007682}
   - component: {fileID: 443007683}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Ground only
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1536,7 +1536,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 587255713}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3849715, y: -1.0589598, z: -1.3397892}
+  m_LocalPosition: {x: 1.3, y: -1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1469288428}
@@ -1868,7 +1868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 661128579}
   - component: {fileID: 661128580}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sky
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2232,7 +2232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705136595}
   - component: {fileID: 705136596}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GreenMountains
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3588,7 +3588,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1284094511}
   - component: {fileID: 1284094512}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: GreenMountains (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13941,7 +13941,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1985487217}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.42, y: 2.31, z: 0}
+  m_LocalPosition: {x: 4.05, y: 2.31, z: 0}
   m_LocalScale: {x: 2.1193676, y: 1.2069619, z: 0.91959}
   m_Children: []
   m_Father: {fileID: 1267342779}
@@ -14665,7 +14665,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2087739202}
   - component: {fileID: 2087739203}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14680,7 +14680,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087739201}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.9, y: 2.6, z: 1.3397892}
+  m_LocalPosition: {x: 3.7, y: 2.98, z: 1.3397892}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 587255714}
