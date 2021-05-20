@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Coins
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -53,4 +55,7 @@ TagManager:
     locked: 0
   - name: Enemies
     uniqueID: 3427295471
+    locked: 0
+  - name: UI
+    uniqueID: 1229815659
     locked: 0
