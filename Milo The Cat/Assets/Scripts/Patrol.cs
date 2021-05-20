@@ -10,7 +10,9 @@ public class Patrol : MonoBehaviour
     private bool move = true;
     public  Transform groundDetection;
 
+    public int health = 100;
 
+    public GameObject deathEffect;
 
     // Start is called before the first frame update
   
