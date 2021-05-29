@@ -22,6 +22,8 @@ public class Bullet : MonoBehaviour
         if(enemy != null)
         {
             enemy.TakeDamage(damage);
+            Destroy(enemy.gameObject);
+            Destroy(gameObject);
         }
 
         Instantiate(impactEffect, transform.position, transform.rotation);

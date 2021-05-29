@@ -816,8 +816,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  deathEffect: {fileID: 2597732675407461615, guid: dbcaf60e5ce0fc743b98448079ed8280,
-    type: 3}
+  deathEffect: {fileID: 0}
 --- !u!1 &260771573
 GameObject:
   m_ObjectHideFlags: 0
@@ -1370,8 +1369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  deathEffect: {fileID: 2597732675407461615, guid: dbcaf60e5ce0fc743b98448079ed8280,
-    type: 3}
+  deathEffect: {fileID: 0}
 --- !u!1 &393976256
 GameObject:
   m_ObjectHideFlags: 0
@@ -5110,8 +5108,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  deathEffect: {fileID: 2597732675407461615, guid: dbcaf60e5ce0fc743b98448079ed8280,
-    type: 3}
+  deathEffect: {fileID: 0}
 --- !u!114 &1053228019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5801,8 +5798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  deathEffect: {fileID: 2597732675407461615, guid: dbcaf60e5ce0fc743b98448079ed8280,
-    type: 3}
+  deathEffect: {fileID: 0}
 --- !u!114 &1161212462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18306,8 +18302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
-  deathEffect: {fileID: 2597732675407461615, guid: dbcaf60e5ce0fc743b98448079ed8280,
-    type: 3}
+  deathEffect: {fileID: 0}
 --- !u!114 &2018674758
 MonoBehaviour:
   m_ObjectHideFlags: 0
