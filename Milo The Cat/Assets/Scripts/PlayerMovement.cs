@@ -57,6 +57,18 @@ public class PlayerMovement : MonoBehaviour
         {
             Destroy(other.gameObject);
         }
-    }
 
+		if (other.tag == "PowerUpSpeed")
+		{
+			Destroy(other.gameObject);
+			runSpeed = 40f;
+			StartCoroutine(ResetPower());
+		}
+	}
+
+	private IEnumerator ResetPower()
+	{
+		yield return new WaitForSeconds(10);
+		runSpeed = 20f;
+	}
 }
