@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Events;
+using System.Collections;
 
 public class CharacterController2D : MonoBehaviour
 {
@@ -60,6 +61,21 @@ public class CharacterController2D : MonoBehaviour
 		}
 	}
 
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+		if (collision.tag == "PowerUp")
+		{
+			Destroy(collision.gameObject);
+			m_JumpForce = 800f;
+			StartCoroutine(ResetPower());
+		}
+	}
+
+	private IEnumerator ResetPower()
+	{
+		yield return new WaitForSeconds(10);
+		m_JumpForce = 500f;
+	}
 
 	public void Move(float move, bool crouch, bool jump)
 	{
