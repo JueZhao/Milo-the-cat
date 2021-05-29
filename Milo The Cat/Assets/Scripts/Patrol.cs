@@ -12,8 +12,6 @@ public class Patrol : MonoBehaviour
 
     public int health = 100;
 
-    public GameObject deathEffect;
-
     // Start is called before the first frame update
   
 
