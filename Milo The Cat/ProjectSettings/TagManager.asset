@@ -9,6 +9,7 @@ TagManager:
   - Ground
   - PowerUp
   - PowerUpSpeed
+  - GM
   layers:
   - Default
   - TransparentFX
