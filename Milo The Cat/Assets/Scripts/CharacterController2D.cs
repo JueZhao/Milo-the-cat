@@ -73,7 +73,7 @@ public class CharacterController2D : MonoBehaviour
 
 	private IEnumerator ResetPower()
 	{
-		yield return new WaitForSeconds(10);
+		yield return new WaitForSeconds(20);
 		m_JumpForce = 500f;
 	}
 

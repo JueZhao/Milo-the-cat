@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
     public Animator animator;
-    public float runSpeed = 40f;
+    public float runSpeed = 20f;
 
     float HorizontalMove = 0f;
 
@@ -68,7 +68,7 @@ public class PlayerMovement : MonoBehaviour
 
 	private IEnumerator ResetPower()
 	{
-		yield return new WaitForSeconds(10);
+		yield return new WaitForSeconds(20);
 		runSpeed = 20f;
 	}
 }
