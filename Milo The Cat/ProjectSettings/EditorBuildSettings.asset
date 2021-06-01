@@ -27,6 +27,15 @@ EditorBuildSettings:
     path: Assets/Scenes/MTC3.unity
     guid: c4874ef9ed040f74895c351d47dcfd4f
   - enabled: 1
+    path: Assets/Scenes/Reverse/MTC3REVERSE.unity
+    guid: 341a77f40ffe7934f8bd3a30ca635b76
+  - enabled: 1
+    path: Assets/Scenes/Reverse/MTC2REVERSE.unity
+    guid: 6016fe5bf7f5eeb4791c2f6ac94c09cb
+  - enabled: 1
+    path: Assets/Scenes/Reverse/MTCREVERSE.unity
+    guid: b51d2dfe47f6ef74ab701e9fc8b5b4e3
+  - enabled: 1
     path: Assets/Scenes/MTCLVL2.unity
     guid: c6d235f175ca04347b5a1545b5cbfa67
   - enabled: 1

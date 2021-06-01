@@ -170,6 +170,7 @@ GameObject:
   - component: {fileID: 70959421}
   - component: {fileID: 70959420}
   - component: {fileID: 70959419}
+  - component: {fileID: 70959423}
   m_Layer: 0
   m_Name: Mace (10)
   m_TagString: Untagged
@@ -232,7 +233,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -298,6 +299,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &70959423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70959417}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30007779dbcfc8a459db9282f8c857d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &99573522
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,6 +687,7 @@ GameObject:
   - component: {fileID: 266485249}
   - component: {fileID: 266485248}
   - component: {fileID: 266485247}
+  - component: {fileID: 266485251}
   m_Layer: 0
   m_Name: Mace (15)
   m_TagString: Untagged
@@ -736,7 +750,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -802,6 +816,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &266485251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 266485245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30007779dbcfc8a459db9282f8c857d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &273052054
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,6 +1161,7 @@ GameObject:
   - component: {fileID: 344392022}
   - component: {fileID: 344392021}
   - component: {fileID: 344392025}
+  - component: {fileID: 344392026}
   m_Layer: 0
   m_Name: Mace
   m_TagString: Untagged
@@ -1168,7 +1195,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1263,6 +1290,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   deathEffect: {fileID: 0}
+--- !u!114 &344392026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 344392020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30007779dbcfc8a459db9282f8c857d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &393976256
 GameObject:
   m_ObjectHideFlags: 0
@@ -1789,6 +1828,7 @@ GameObject:
   - component: {fileID: 490300748}
   - component: {fileID: 490300747}
   - component: {fileID: 490300746}
+  - component: {fileID: 490300750}
   m_Layer: 0
   m_Name: Mace (8)
   m_TagString: Untagged
@@ -1851,7 +1891,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1917,6 +1957,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &490300750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 490300744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30007779dbcfc8a459db9282f8c857d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2672,6 +2724,7 @@ GameObject:
   - component: {fileID: 632953670}
   - component: {fileID: 632953669}
   - component: {fileID: 632953668}
+  - component: {fileID: 632953672}
   m_Layer: 0
   m_Name: Mace (9)
   m_TagString: Untagged
@@ -2734,7 +2787,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2800,6 +2853,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &632953672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632953666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30007779dbcfc8a459db9282f8c857d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &640073299
 GameObject:
   m_ObjectHideFlags: 0
@@ -2975,6 +3040,7 @@ GameObject:
   - component: {fileID: 656645650}
   - component: {fileID: 656645649}
   - component: {fileID: 656645648}
+  - component: {fileID: 656645652}
   m_Layer: 0
   m_Name: Mace (4)
   m_TagString: Untagged
@@ -3037,7 +3103,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -3103,6 +3169,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &656645652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 656645646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30007779dbcfc8a459db9282f8c857d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &661128578
 GameObject:
   m_ObjectHideFlags: 0
@@ -4000,6 +4078,7 @@ GameObject:
   - component: {fileID: 729212656}
   - component: {fileID: 729212655}
   - component: {fileID: 729212654}
+  - component: {fileID: 729212658}
   m_Layer: 0
   m_Name: Mace (5)
   m_TagString: Untagged
@@ -4062,7 +4141,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -4128,6 +4207,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &729212658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729212652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30007779dbcfc8a459db9282f8c857d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &774164789
 GameObject:
   m_ObjectHideFlags: 0
@@ -5263,6 +5354,7 @@ GameObject:
   - component: {fileID: 1053228020}
   - component: {fileID: 1053228019}
   - component: {fileID: 1053228018}
+  - component: {fileID: 1053228022}
   m_Layer: 0
   m_Name: Mace (3)
   m_TagString: Untagged
@@ -5325,7 +5417,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -5391,6 +5483,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1053228022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1053228016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30007779dbcfc8a459db9282f8c857d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1064588062
 GameObject:
   m_ObjectHideFlags: 0
@@ -6123,6 +6227,7 @@ GameObject:
   - component: {fileID: 1161212463}
   - component: {fileID: 1161212462}
   - component: {fileID: 1161212461}
+  - component: {fileID: 1161212465}
   m_Layer: 0
   m_Name: Mace (2)
   m_TagString: Untagged
@@ -6185,7 +6290,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6251,6 +6356,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1161212465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161212459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30007779dbcfc8a459db9282f8c857d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1165738142
 GameObject:
   m_ObjectHideFlags: 0
@@ -6338,6 +6455,7 @@ GameObject:
   - component: {fileID: 1181527803}
   - component: {fileID: 1181527802}
   - component: {fileID: 1181527801}
+  - component: {fileID: 1181527805}
   m_Layer: 0
   m_Name: Mace (12)
   m_TagString: Untagged
@@ -6400,7 +6518,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -6466,6 +6584,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1181527805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181527799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30007779dbcfc8a459db9282f8c857d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1193872759
 GameObject:
   m_ObjectHideFlags: 0
@@ -7980,6 +8110,7 @@ GameObject:
   - component: {fileID: 1550664718}
   - component: {fileID: 1550664717}
   - component: {fileID: 1550664716}
+  - component: {fileID: 1550664720}
   m_Layer: 0
   m_Name: Mace (14)
   m_TagString: Untagged
@@ -8042,7 +8173,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -8108,6 +8239,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1550664720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550664714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30007779dbcfc8a459db9282f8c857d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1620570493
 GameObject:
   m_ObjectHideFlags: 0
@@ -19013,6 +19156,7 @@ GameObject:
   - component: {fileID: 1721711299}
   - component: {fileID: 1721711298}
   - component: {fileID: 1721711297}
+  - component: {fileID: 1721711301}
   m_Layer: 0
   m_Name: Mace (16)
   m_TagString: Untagged
@@ -19075,7 +19219,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -19141,6 +19285,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1721711301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1721711295}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30007779dbcfc8a459db9282f8c857d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1734376759
 GameObject:
   m_ObjectHideFlags: 0
@@ -20015,6 +20171,7 @@ GameObject:
   - component: {fileID: 2018674759}
   - component: {fileID: 2018674758}
   - component: {fileID: 2018674757}
+  - component: {fileID: 2018674761}
   m_Layer: 0
   m_Name: Mace (1)
   m_TagString: Untagged
@@ -20077,7 +20234,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -20143,6 +20300,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2018674761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2018674755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30007779dbcfc8a459db9282f8c857d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2022726418
 GameObject:
   m_ObjectHideFlags: 0
@@ -20443,6 +20612,7 @@ GameObject:
   - component: {fileID: 2042111904}
   - component: {fileID: 2042111903}
   - component: {fileID: 2042111902}
+  - component: {fileID: 2042111906}
   m_Layer: 0
   m_Name: Mace (6)
   m_TagString: Untagged
@@ -20505,7 +20675,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -20571,6 +20741,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2042111906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042111900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30007779dbcfc8a459db9282f8c857d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2042936673
 GameObject:
   m_ObjectHideFlags: 0
@@ -20584,6 +20766,7 @@ GameObject:
   - component: {fileID: 2042936677}
   - component: {fileID: 2042936676}
   - component: {fileID: 2042936675}
+  - component: {fileID: 2042936679}
   m_Layer: 0
   m_Name: Mace (7)
   m_TagString: Untagged
@@ -20646,7 +20829,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -20712,6 +20895,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2042936679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042936673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30007779dbcfc8a459db9282f8c857d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2069448824
 GameObject:
   m_ObjectHideFlags: 0
@@ -20755,6 +20950,7 @@ GameObject:
   - component: {fileID: 2076812974}
   - component: {fileID: 2076812973}
   - component: {fileID: 2076812972}
+  - component: {fileID: 2076812976}
   m_Layer: 0
   m_Name: Mace (13)
   m_TagString: Untagged
@@ -20817,7 +21013,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -20883,6 +21079,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2076812976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2076812970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30007779dbcfc8a459db9282f8c857d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2087739201
 GameObject:
   m_ObjectHideFlags: 0
