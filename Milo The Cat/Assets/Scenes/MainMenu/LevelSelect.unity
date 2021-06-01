@@ -547,7 +547,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 867508461}
-        m_MethodName: quitGame
+        m_MethodName: levelThree
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -814,7 +814,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 867508461}
-        m_MethodName: quitGame
+        m_MethodName: levelFive
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1312,7 +1312,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 867508459}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf939193f458b2c4cb0b6aa9f0c5173f, type: 3}
+  m_Script: {fileID: 11500000, guid: 301aaf2835d71ff4087d20eb64e73cc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &868069212
@@ -1498,7 +1498,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 867508461}
-        m_MethodName: quitGame
+        m_MethodName: levelFour
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1628,7 +1628,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 867508461}
-        m_MethodName: playGame
+        m_MethodName: levelOne
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1756,7 +1756,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1198019556}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 867508461}
+        m_MethodName: levelTwo
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1198019556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2143,7 +2154,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 867508461}
-        m_MethodName: quitGame
+        m_MethodName: levelSeven
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2273,7 +2284,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 867508461}
-        m_MethodName: quitGame
+        m_MethodName: levelSix
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

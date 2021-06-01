@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MTC2.unity
     guid: ee0c5261f1b55e54db981577ab6243de
   - enabled: 1
+    path: Assets/Scenes/MTC3.unity
+    guid: c4874ef9ed040f74895c351d47dcfd4f
+  - enabled: 1
     path: Assets/Scenes/MTCLVL2.unity
     guid: c6d235f175ca04347b5a1545b5cbfa67
   - enabled: 1
