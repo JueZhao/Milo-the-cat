@@ -2017,7 +2017,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 733706777}
         m_MethodName: SetVolume
         m_Mode: 0
         m_Arguments:
@@ -6038,6 +6038,7 @@ GameObject:
   m_Component:
   - component: {fileID: 733706776}
   - component: {fileID: 733706775}
+  - component: {fileID: 733706777}
   m_Layer: 0
   m_Name: Music
   m_TagString: Untagged
@@ -6155,6 +6156,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &733706777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733706774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cbe5de412862104a90c62cb118c2451, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &736258022
 GameObject:
   m_ObjectHideFlags: 0
